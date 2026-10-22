@@ -1,0 +1,5 @@
+#include "../include/Sci_Position.h"
+#include "../include/Scintilla.h"
+#include "../cocoa/InfoBar.h"
+#include "../cocoa/InfoBarCommunicator.h"
+#include "../cocoa/ScintillaView.h"

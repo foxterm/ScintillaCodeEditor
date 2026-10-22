@@ -1,0 +1,4 @@
+module Scintilla {
+    header "Scintilla.h"
+    export *
+}

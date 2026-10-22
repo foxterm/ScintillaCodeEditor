@@ -19,3 +19,13 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+---
+
+This project includes Scintilla source code (Sources/Scintilla/).
+Scintilla is Copyright 1998-2003 by Neil Hodgson <neilh@scintilla.org>.
+Scintilla is licensed under the Scintilla License.
+See Sources/Scintilla/License.txt
+
+This project depends on Tree-sitter (https://github.com/tree-sitter/tree-sitter).
+Tree-sitter is licensed under the MIT License.

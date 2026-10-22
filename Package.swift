@@ -16,7 +16,7 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/tree-sitter/tree-sitter.git", .upToNextMinor(from: "0.25.10")),
-        .package(url: "https://github.com/ra1028/swiftui-hooks", branch: "main"),
+        .package(url: "https://github.com/foxterm/swiftui-hooks.git", branch: "main"),
         .package(url: "https://github.com/foxterm/Sync.git", branch: "main"),
         .package(url: "https://github.com/foxterm/Extension.git", branch: "main"),
 

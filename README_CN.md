@@ -41,7 +41,7 @@ FoxTerm APP 专用代码编辑器库，基于 Scintilla 的 Swift 封装，支�
 ### 依赖
 
 - [tree-sitter](https://github.com/tree-sitter/tree-sitter.git) — 增量解析库
-- [swiftui-hooks](https://github.com/ra1028/swiftui-hooks) — SwiftUI Hooks
+- [swiftui-hooks](https://github.com/foxterm/swiftui-hooks.git) — SwiftUI Hooks
 - [Sync](https://github.com/foxterm/Sync) — 并发同步原语
 - [Extension](https://github.com/foxterm/Extension) — Foundation 扩展
 

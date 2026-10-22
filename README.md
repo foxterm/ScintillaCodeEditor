@@ -41,7 +41,7 @@ A dedicated code editor library for the FoxTerm APP. Built as a Swift wrapper ar
 ### Dependencies
 
 - [tree-sitter](https://github.com/tree-sitter/tree-sitter.git) — Incremental parsing library
-- [swiftui-hooks](https://github.com/ra1028/swiftui-hooks) — SwiftUI hooks
+- [swiftui-hooks](https://github.com/foxterm/swiftui-hooks.git) — SwiftUI hooks
 - [Sync](https://github.com/foxterm/Sync) — Concurrency synchronization primitives
 - [Extension](https://github.com/foxterm/Extension) — Foundation extensions
 

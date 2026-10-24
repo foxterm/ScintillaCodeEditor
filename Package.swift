@@ -15,7 +15,7 @@ let package = Package(
         .library(name: "ScintillaCodeEditor", targets: ["ScintillaCodeEditor"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/tree-sitter/tree-sitter.git", .upToNextMinor(from: "0.25.10")),
+        .package(url: "https://github.com/tree-sitter/tree-sitter", .upToNextMinor(from: "0.20.9")),
         .package(url: "https://github.com/foxterm/swiftui-hooks.git", branch: "main"),
         .package(url: "https://github.com/foxterm/Sync.git", branch: "main"),
         .package(url: "https://github.com/foxterm/Extension.git", branch: "main"),

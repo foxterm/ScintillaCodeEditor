@@ -44,6 +44,7 @@ FoxTerm APP 专用代码编辑器库，基于 Scintilla 的 Swift 封装，支�
 - [swiftui-hooks](https://github.com/foxterm/swiftui-hooks.git) — SwiftUI Hooks
 - [Sync](https://github.com/foxterm/Sync) — 并发同步原语
 - [Extension](https://github.com/foxterm/Extension) — Foundation 扩展
+- [CodeLanguage](https://github.com/foxterm/CodeLanguage) — 基于 Tree-sitter 的语法高亮与语言检测
 
 ## 使用
 
@@ -144,23 +145,7 @@ Sources/
 │   ├── Theme.swift                 # Theme/Style/Syntax 模型（Codable）
 │   ├── Bundle.swift                # 主题 JSON 加载器
 │   └── Resources/                  # 内置主题 JSON 文件（ayu、gruvbox、one）
-├── CodeLanguage/
-│   ├── CodeLanguage.swift          # 语言枚举定义
-│   ├── CodeLanguage+C.swift        # Tree-sitter 语言绑定
-│   ├── Syntax.swift                # 高亮查询引擎（全局缓存）
-│   ├── QueryCapture.swift          # 查询捕获结果模型
-│   └── Config.swift                # 语言特定配置
-├── Scintilla/                      # Scintilla C++ 源码（Cocoa 平台）
-├── TreeSitterBash/                 # Tree-sitter 语法：Bash
-├── TreeSitterDockerfile/           # Tree-sitter 语法：Dockerfile
-├── TreeSitterINI/                  # Tree-sitter 语法：INI
-├── TreeSitterJSON/                 # Tree-sitter 语法：JSON
-├── TreeSitterMarkdown/             # Tree-sitter 语法：Markdown
-├── TreeSitterSSHConfig/            # Tree-sitter 语法：SSH Config
-├── TreeSitterTOML/                 # Tree-sitter 语法：TOML
-├── TreeSitterXML/                  # Tree-sitter 语法：XML
-├── TreeSitterYAML/                 # Tree-sitter 语法：YAML
-└── TreeSitter*Queries/             # 各语言高亮查询 .scm 文件
+└── Scintilla/                      # Scintilla C++ 源码（Cocoa 平台）
 ```
 
 ## 许可证

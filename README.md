@@ -44,6 +44,7 @@ A dedicated code editor library for the FoxTerm APP. Built as a Swift wrapper ar
 - [swiftui-hooks](https://github.com/foxterm/swiftui-hooks.git) — SwiftUI hooks
 - [Sync](https://github.com/foxterm/Sync) — Concurrency synchronization primitives
 - [Extension](https://github.com/foxterm/Extension) — Foundation extensions
+- [CodeLanguage](https://github.com/foxterm/CodeLanguage) — Tree-sitter based syntax highlighting and language detection
 
 ## Usage
 
@@ -144,23 +145,7 @@ Sources/
 │   ├── Theme.swift                 # Theme/Style/Syntax model (Codable)
 │   ├── Bundle.swift                # Theme JSON loader
 │   └── Resources/                  # Built-in theme JSON files (ayu, gruvbox, one)
-├── CodeLanguage/
-│   ├── CodeLanguage.swift          # Language enum definition
-│   ├── CodeLanguage+C.swift        # Tree-sitter language bindings
-│   ├── Syntax.swift                # Highlight query engine with global cache
-│   ├── QueryCapture.swift          # Query capture result model
-│   └── Config.swift                # Language-specific configuration
-├── Scintilla/                      # Scintilla C++ source (cocoa platform)
-├── TreeSitterBash/                 # Tree-sitter grammar: Bash
-├── TreeSitterDockerfile/           # Tree-sitter grammar: Dockerfile
-├── TreeSitterINI/                  # Tree-sitter grammar: INI
-├── TreeSitterJSON/                 # Tree-sitter grammar: JSON
-├── TreeSitterMarkdown/             # Tree-sitter grammar: Markdown
-├── TreeSitterSSHConfig/            # Tree-sitter grammar: SSH Config
-├── TreeSitterTOML/                 # Tree-sitter grammar: TOML
-├── TreeSitterXML/                  # Tree-sitter grammar: XML
-├── TreeSitterYAML/                 # Tree-sitter grammar: YAML
-└── TreeSitter*Queries/             # Highlight query .scm files per language
+└── Scintilla/                      # Scintilla C++ source (cocoa platform)
 ```
 
 ## License

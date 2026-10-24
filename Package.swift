@@ -13,6 +13,7 @@ let package = Package(
     ],
     products: [
         .library(name: "ScintillaCodeEditor", targets: ["ScintillaCodeEditor"]),
+        .library(name: "CodeLanguage", targets: ["CodeLanguage"]),
     ],
     dependencies: [
         .package(url: "https://github.com/tree-sitter/tree-sitter", .upToNextMinor(from: "0.20.9")),
